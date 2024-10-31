@@ -2,9 +2,9 @@
 
 namespace JordanPartridge\UserMake;
 
+use JordanPartridge\UserMake\Commands\UserMakeCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use JordanPartridge\UserMake\Commands\UserMakeCommand;
 
 class UserMakeServiceProvider extends PackageServiceProvider
 {
